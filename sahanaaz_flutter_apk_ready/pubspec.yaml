@@ -1,0 +1,28 @@
+name: sahanaaz_enterprises
+# display name for app
+flutter:
+  uses-material-design: true
+  # app display name overridden in Android manifest and iOS Info.plist
+
+description: Sahanaaz Enterprises - Wholesale management (Flutter upgraded)
+publish_to: "none"
+version: 0.1.0
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.8+4
+  path_provider: ^2.0.14
+  provider: ^6.0.5
+  intl: ^0.18.1
+  pdf: ^3.11.0
+  printing: ^5.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
